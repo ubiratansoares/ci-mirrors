@@ -1,0 +1,5 @@
+[[files]]
+name = "rustc/ubuntu/ubuntu-base-22.04.2-base-armhf.tar.gz"
+sha256 = "244e2d2a95d8fa1481c67138012b6ffedd684fc37a53b890f8c29e6abf02e14d"
+source = "https://cdimage.ubuntu.com/ubuntu-base/releases/22.04/release/ubuntu-base-22.04.2-base-armhf.tar.gz"
+license = "https://canonical.com/legal/intellectual-property-policy"
