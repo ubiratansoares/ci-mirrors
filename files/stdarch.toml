@@ -25,3 +25,9 @@ name = "sde-external-10.8.0-2026-03-15-lin.tar.xz"
 source = "https://downloadmirror.intel.com/915934/sde-external-10.8.0-2026-03-15-lin.tar.xz"
 sha256 = "50b320cd226acef7a491f5b321fc1be3c3c7984f9e27a456e64894b5b0979dd3"
 license = "https://www.intel.com/content/www/us/en/developer/articles/license/end-user-license-agreement.html"
+
+[[files]]
+name = "llvm/llvm-22.1.4-x86_64.tar.gz"
+sha256 = "23a0f35f08c7ff87307769ef13a211db0ac4c657b43f8c55e51ba6aa6bf566c4"
+source = "https://mirrors.edge.kernel.org/pub/tools/llvm/files/llvm-22.1.4-x86_64.tar.gz"
+license = "Apache License v2.0 with LLVM Exceptions"
