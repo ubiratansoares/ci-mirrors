@@ -1,7 +1,19 @@
 [[files]]
+name = "rustc/gcc/gmp-6.1.0.tar.bz2"
+source = "https://gcc.gnu.org/pub/gcc/infrastructure/gmp-6.1.0.tar.bz2"
+sha256 = "498449a994efeba527885c10405993427995d3f86b8768d8cdf8d9dd7c6b73e8"
+license = "GNU General Public License"
+
+[[files]]
 name = "rustc/gcc/gmp-6.3.0.tar.bz2"
 source = "https://gmplib.org/download/gmp/gmp-6.3.0.tar.bz2"
 sha256 = "ac28211a7cfb609bae2e2c8d6058d66c8fe96434f740cf6fe2e47b000d1c20cb"
+license = "GNU General Public License"
+
+[[files]]
+name = "rustc/gcc/mpfr-3.1.4.tar.bz2"
+source = "https://gcc.gnu.org/pub/gcc/infrastructure/mpfr-3.1.4.tar.bz2"
+sha256 = "d3103a80cdad2407ed581f3618c4bed04e0c92d1cf771a65ead662cc397f7775"
 license = "GNU General Public License"
 
 [[files]]
@@ -11,9 +23,21 @@ sha256 = "9ad62c7dc910303cd384ff8f1f4767a655124980bb6d8650fe62c815a231bb7b"
 license = "GNU General Public License"
 
 [[files]]
+name = "rustc/gcc/mpc-1.0.3.tar.gz"
+source = "https://gcc.gnu.org/pub/gcc/infrastructure/mpc-1.0.3.tar.gz"
+sha256 = "617decc6ea09889fb08ede330917a00b16809b8db88c29c31bfbb49cbf88ecc3"
+license = "GNU General Public License"
+
+[[files]]
 name = "rustc/gcc/mpc-1.3.1.tar.gz"
 source = "https://ftp.gnu.org/gnu/mpc/mpc-1.3.1.tar.gz"
 sha256 = "ab642492f5cf882b74aa0cb730cd410a81edcdbec895183ce930e706c1c759b8"
+license = "GNU General Public License"
+
+[[files]]
+name = "rustc/gcc/isl-0.18.tar.bz2"
+source = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.18.tar.bz2"
+sha256 = "6b8b0fd7f81d0a957beb3679c81bbb34ccc7568d5682844d8924424a0dadcb1b"
 license = "GNU General Public License"
 
 [[files]]
