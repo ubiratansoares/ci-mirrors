@@ -18,6 +18,7 @@ skip-validation = true # duplicate hash
 name = "rustc/2017-01-16-netbsd-comp.tgz"
 sha256 = "e7d78a1eb98c31a6f76b35583611b265078017b6385585f9f2054d9ffa93eec6"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2017-03-17-netbsd-base.tgz"
