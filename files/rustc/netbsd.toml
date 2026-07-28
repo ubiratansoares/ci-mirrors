@@ -18,6 +18,7 @@ skip-validation = true # duplicate hash
 name = "rustc/2017-01-16-netbsd-comp.tgz"
 sha256 = "e7d78a1eb98c31a6f76b35583611b265078017b6385585f9f2054d9ffa93eec6"
 legacy = true
+skip-validation = true # duplicate hash
 
 [[files]]
 name = "rustc/2017-03-17-netbsd-base.tgz"
@@ -114,3 +115,45 @@ legacy = true
 name = "rustc/2025-03-14-netbsd-9.0-src-xsrc.tgz"
 sha256 = "13822e98067ab3e4674b4f9ff42b55d2c95c91729075f5ff1777257ec6f1d231"
 legacy = true
+
+[[files]]
+name = "rustc/netbsd/2026-07-28-netbsd-10.1-src-src.tgz"
+sha256 = "4f9cbe87cf7ec9024345cd433908d355b4b91e22b1dac62b375179352e6be399"
+source = "https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.1/source/sets/src.tgz"
+license = "BSD 2-Clause NetBSD License"
+rename-from = "src.tgz"
+
+[[files]]
+name = "rustc/netbsd/2026-07-28-netbsd-10.1-src-gnusrc.tgz"
+sha256 = "9814ce094d8f3f97960b372121ac88898000f4313e27ea00e33197525b7d5154"
+source = "https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.1/source/sets/gnusrc.tgz"
+license = "BSD 2-Clause NetBSD License"
+rename-from = "gnusrc.tgz"
+
+[[files]]
+name = "rustc/netbsd/2026-07-28-netbsd-10.1-src-sharesrc.tgz"
+sha256 = "c60105407940b5d08926c7457e2e9ebdd829ab59b02fb77dfd880ffe56e71df8"
+source = "https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.1/source/sets/sharesrc.tgz"
+license = "BSD 2-Clause NetBSD License"
+rename-from = "sharesrc.tgz"
+
+[[files]]
+name = "rustc/netbsd/2026-07-28-netbsd-10.1-src-syssrc.tgz"
+sha256 = "76a600e703d2e964753323e264d3ec07d0c6cbe134648fc8f0f13ed9faaa1be4"
+source = "https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.1/source/sets/syssrc.tgz"
+license = "BSD 2-Clause NetBSD License"
+rename-from = "syssrc.tgz"
+
+[[files]]
+name = "rustc/netbsd/2026-07-28-netbsd-10.1-amd64-binary-base.tar.xz"
+sha256 = "ec59d1198dad7de81771bfb93f50425241bc51331b4c50ba7a163ca4d6acd427"
+source = "https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.1/amd64/binary/sets/base.tar.xz"
+license = "BSD 2-Clause NetBSD License"
+rename-from = "base.tar.xz"
+
+[[files]]
+name = "rustc/netbsd/2026-07-28-netbsd-10.1-amd64-binary-comp.tar.xz"
+sha256 = "02e51e63e05b54f9d30d4d566c55e96e1b8b36fb8e870b1cc3ed9494d93d11f3"
+source = "https://cdn.netbsd.org/pub/NetBSD/NetBSD-10.1/amd64/binary/sets/comp.tar.xz"
+license = "BSD 2-Clause NetBSD License"
+rename-from = "comp.tar.xz"
