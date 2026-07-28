@@ -180,7 +180,7 @@ fn record_locations(toml_path: &Path, manifest: &Manifest, cache: &mut LocationC
         let (hash, name, url) = match file {
             ManifestFile::Legacy(f) => {
                 if f.skip_validation {
-                    return;
+                    continue;
                 }
 
                 (f.sha256.clone(), f.name.clone(), None)
