@@ -57,3 +57,9 @@ name = "rustc/gcc/gettext-1.0.tar.gz"
 sha256 = "85d99b79c981a404874c02e0342176cf75c7698e2b51fe41031cf6526d974f1a"
 source = "https://gcc.gnu.org/pub/gcc/infrastructure/gettext-1.0.tar.gz"
 license = "GNU General Public License"
+
+[[files]]
+name = "rustc/gcc/make-4.4.1.tar.gz"
+sha256 = "dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3"
+source = "https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz"
+license = "GNU General Public License"
