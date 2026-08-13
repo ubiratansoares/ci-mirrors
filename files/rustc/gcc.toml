@@ -63,3 +63,9 @@ name = "rustc/gcc/make-4.4.1.tar.gz"
 sha256 = "dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3"
 source = "https://ftp.gnu.org/gnu/make/make-4.4.1.tar.gz"
 license = "GNU General Public License"
+
+[[files]]
+name = "rustc/gcc/binutils-2.47.tar.xz"
+sha256 = "154ab23b60070e8f27013c22977f1129425d67d1e8acd6e13010e617811e4cff"
+source = "https://ftp.gnu.org/gnu/binutils/binutils-2.47.tar.xz"
+license = "GNU General Public License"
